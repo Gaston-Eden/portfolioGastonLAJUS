@@ -48,7 +48,7 @@ const telCopie = ref(false)
           <a :href="`tel:${tel}`" class="text-white font-medium hover:text-indigo-400">{{ tel }}</a>
           <button @click="copierTelephone()"
             class="bg-indigo-600 hover:bg-indigo-700 text-white px-3 py-1 rounded text-sm flex items-center gap-2">
-            <img src="../../img/copie.png" class="w-4 h-4">
+            <img src="/img/copie.png" class="w-4 h-4">
             Copier
           </button>
           <span v-if="telCopie" class="text-green-400 text-sm">✓ Copié !</span>
@@ -59,7 +59,7 @@ const telCopie = ref(false)
         <p class="text-gray-400 text-sm mb-3">Réseaux</p>
         <a href="https://www.linkedin.com/in/gaston-lajus-713372384/" target="_blank" rel="noopener"
           class="inline-flex gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded items-center">
-          <img src="../../img/linkedin.png" class="w-5 h-5" >
+          <img src="/img/linkedin.png" class="w-5 h-5" >
           LinkedIn
         </a>
       </div>
