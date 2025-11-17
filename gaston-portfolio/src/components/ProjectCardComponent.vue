@@ -7,7 +7,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="h-full flex flex-col bg-gray-900 border border-gray-800 rounded-lg shadow-md overflow-hidden transition duration-300 hover:shadow-xl hover:-translate-y-1">
+  <div class="h-full flex flex-col bg-gray-900 border border-gray-800 rounded-lg  overflow-hidden transition duration-300  hover:-translate-y-1">
     <div class="w-full h-48 bg-gray-800 overflow-hidden flex-shrink-0">
       <img :src="img" alt="project image" class="w-full h-full object-cover" />
     </div>
