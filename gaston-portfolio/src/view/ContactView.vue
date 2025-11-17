@@ -35,7 +35,7 @@ const telCopie = ref(false)
         <div class="flex flex-row gap-3 items-center justify-center">
           <a :href="`mailto:${monEmail}`" class="text-white font-medium hover:text-indigo-400">{{ monEmail }}</a>
           <button @click="copierEmail()" class="bg-indigo-600 hover:bg-indigo-700 text-white px-3 py-1 rounded text-sm flex items-center gap-2">
-            <img src="../../img/copie.png" class="w-4 h-4">
+            <img src="/img/copie.png" class="w-4 h-4">
             Copier
           </button>
           <span v-if="emailCopie" class="text-green-400 text-sm">✓ Copié !</span>
