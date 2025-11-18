@@ -27,7 +27,7 @@ const telCopie = ref(false)
 
 <template>
   <section class=" mx-auto py-16 px-4 flex justify-center">
-    <div class="bg-gray-900 border border-gray-800 rounded-lg  p-8 w-full max-w-lg">
+    <div class="bg-gray-900/20 border border-gray-800/40 rounded-lg  p-8 w-full max-w-lg">
       <h1 class="text-3xl font-bold text-white mb-6 text-center">Contact</h1>
 
       <div class="mb-6 text-center">

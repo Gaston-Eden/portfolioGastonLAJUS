@@ -20,7 +20,7 @@ const projets = ref([
     <h1 class="text-3xl font-bold text-white mb-4">
       Mes Projets
     </h1>
-    <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-6  ">
       <ProjectCardComponent v-for="projet in projets" :key="projet.title" :title="projet.title"
         :description="projet.description" :img="projet.img" />
     </div>

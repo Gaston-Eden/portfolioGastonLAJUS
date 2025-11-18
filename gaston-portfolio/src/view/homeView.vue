@@ -1,7 +1,7 @@
 <template>
 
-  <div class="min-h-[50vh] flex flex-col justify-center items-center bg-black">
-    <div class=" rounded-2xl flex flex-col items-center mt-16 w-full max-w-md  relative overflow-hidden">
+  <div class="min-h-[50vh] flex flex-col justify-center items-center ">
+    <div class=" rounded-2xl flex flex-col items-center mt-16 max-w-md  relative overflow-hidden ">
 
       <img src="/img/PhotoGastonLAJUS.png" alt="Gaston LAJUS"
         class="w-24 h-24 rounded-full  mb-5 border-4 border-gray-700 object-cover" />

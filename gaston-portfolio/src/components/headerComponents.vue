@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <header class=" border-b border-gray-800">
+  <header class=" border-b border-gray-800/40 ">
     <nav class="container mx-auto flex items-center justify-between py-4 px-2 md:px-0">
       <RouterLink to="/" class="text-lg font-semibold">Mon Portfolio</RouterLink>
 
